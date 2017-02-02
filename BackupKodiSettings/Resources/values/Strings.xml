@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Help">Help Text</string>
+    <string name="TestButtons">Test Buttons</string>
+    <string name="ViewSettingsFiles">View Settings Files</string>
+    <string name="ApplicationName">BackupKodiSettings</string>
+    <string name="GetPulsePin">Get Pulse Pin</string>
+</resources>

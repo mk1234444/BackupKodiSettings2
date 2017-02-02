@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#fff"
+            android:textColor="#f00"
+            android:text="Important: After you have made any changes to the Skin settings you MUST close Kodi before you click the Backup button below. This is because Kodi doesn't save skin changes to file until it closes down"
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+        <Button
+            android:text="Backup Xonfluence and Favourites settings files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBackup"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textColor="#f00"
+            android:text="Important: Make sure Kodi has been closed before you click the Restore button below."
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp" />
+        <Button
+            android:text="Restore Xonfluence and Favourites settings files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRestore"
+            android:layout_gravity="center" />
+        <BackupKodiSettings.ImageButtonScaled
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBackupSD"
+            android:drawableLeft="@drawable/ssd2"
+            android:text="Backup Sports Donkey"
+            android:layout_gravity="center" />
+        <BackupKodiSettings.ImageButtonScaled
+            android:text="Restore SportsDonkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRestoreSD"
+            android:drawableLeft="@drawable/ssd2" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <Button
+                android:text="Get Pulse Pin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnGetPulsePin"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp" />
+            <TextView
+                android:text="0000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtPulsePin"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/pbarPulsePin"
+                android:layout_marginLeft="6dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+        <Button
+            android:text="Launch Kodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLaunchKodi" />
+    </LinearLayout>
+</ScrollView>

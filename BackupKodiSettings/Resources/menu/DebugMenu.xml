@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/test_buttons"
+        android:title="@string/TestButtons"
+        />
+  <item android:id="@+id/view_settings_files"
+        android:title="@string/ViewSettingsFiles"
+        />
+  <item android:id="@+id/get_pulse_pin"
+        android:title="@string/GetPulsePin"
+        />
+
+</menu>
