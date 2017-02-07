@@ -15,7 +15,6 @@
             android:text="Important: After you have made any changes to the Skin settings you MUST close Kodi before you click the Backup button below. This is because Kodi doesn't save skin changes to file until it closes down"
             android:paddingBottom="1dp"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp"
             android:paddingTop="1dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp" />
@@ -33,7 +32,6 @@
             android:text="Important: Make sure Kodi has been closed before you click the Restore button below."
             android:paddingBottom="1dp"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp"
             android:paddingTop="1dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"

@@ -14,7 +14,25 @@ namespace BackupKodiSettings
 {
     public class ImageButtonScaled:Button
     {
-        public ImageButtonScaled(Context context) : base(context) {}
+        protected ImageButtonScaled(IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer) : base(javaReference, transfer)
+        {
+        }
+
+        public ImageButtonScaled(Context context) : base(context)
+        {
+        }
+
+        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs) : base(context, attrs)
+        {
+        }
+
+        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs, int defStyleAttr) : base(context, attrs, defStyleAttr)
+        {
+        }
+
+        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs, int defStyleAttr, int defStyleRes) : base(context, attrs, defStyleAttr, defStyleRes)
+        {
+        }
 
         public override void SetCompoundDrawables(Drawable left, Drawable top, Drawable right, Drawable bottom)
         {
