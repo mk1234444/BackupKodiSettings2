@@ -78,80 +78,83 @@ namespace BackupKodiSettings
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int btnBackup = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int btnBackup = 2131165184;
 			
-			// aapt resource value: 0x7f060002
-			public const int btnBackupSD = 2131099650;
+			// aapt resource value: 0x7f070002
+			public const int btnBackupSD = 2131165186;
 			
-			// aapt resource value: 0x7f06000c
-			public const int btnCheckBackupDir = 2131099660;
+			// aapt resource value: 0x7f07000c
+			public const int btnCheckBackupDir = 2131165196;
 			
-			// aapt resource value: 0x7f06000a
-			public const int btnCheckFavourites = 2131099658;
+			// aapt resource value: 0x7f07000a
+			public const int btnCheckFavourites = 2131165194;
 			
-			// aapt resource value: 0x7f06000b
-			public const int btnCheckXonfluence = 2131099659;
+			// aapt resource value: 0x7f07000b
+			public const int btnCheckXonfluence = 2131165195;
 			
-			// aapt resource value: 0x7f06000e
-			public const int btnCreateBackupDir = 2131099662;
+			// aapt resource value: 0x7f07000e
+			public const int btnCreateBackupDir = 2131165198;
 			
-			// aapt resource value: 0x7f06000f
-			public const int btnDeleteBackupDir = 2131099663;
+			// aapt resource value: 0x7f07000f
+			public const int btnDeleteBackupDir = 2131165199;
 			
-			// aapt resource value: 0x7f060005
-			public const int btnGetPulsePin = 2131099653;
+			// aapt resource value: 0x7f070005
+			public const int btnGetPulsePin = 2131165189;
 			
-			// aapt resource value: 0x7f060008
-			public const int btnLaunchKodi = 2131099656;
+			// aapt resource value: 0x7f070008
+			public const int btnLaunchKodi = 2131165192;
 			
-			// aapt resource value: 0x7f060001
-			public const int btnRestore = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int btnRestore = 2131165185;
 			
-			// aapt resource value: 0x7f060003
-			public const int btnRestoreSD = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int btnRestoreSD = 2131165187;
 			
-			// aapt resource value: 0x7f06000d
-			public const int btnSDPaths = 2131099661;
+			// aapt resource value: 0x7f07000d
+			public const int btnSDPaths = 2131165197;
 			
-			// aapt resource value: 0x7f060012
-			public const int btnViewFavourites = 2131099666;
+			// aapt resource value: 0x7f070013
+			public const int btnViewFavourites = 2131165203;
 			
-			// aapt resource value: 0x7f060013
-			public const int btnViewXonfSettings = 2131099667;
+			// aapt resource value: 0x7f070014
+			public const int btnViewXonfSettings = 2131165204;
 			
-			// aapt resource value: 0x7f060018
-			public const int get_pulse_pin = 2131099672;
+			// aapt resource value: 0x7f070019
+			public const int get_pulse_pin = 2131165209;
 			
-			// aapt resource value: 0x7f060004
-			public const int linearLayout1 = 2131099652;
+			// aapt resource value: 0x7f070004
+			public const int linearLayout1 = 2131165188;
 			
-			// aapt resource value: 0x7f060010
-			public const int linearLayout2 = 2131099664;
+			// aapt resource value: 0x7f070010
+			public const int linearLayout2 = 2131165200;
 			
-			// aapt resource value: 0x7f060007
-			public const int pbarPulsePin = 2131099655;
+			// aapt resource value: 0x7f070007
+			public const int pbarPulsePin = 2131165191;
 			
-			// aapt resource value: 0x7f060011
-			public const int progressBar1 = 2131099665;
+			// aapt resource value: 0x7f070011
+			public const int progressBar1 = 2131165201;
 			
-			// aapt resource value: 0x7f060014
-			public const int scrollView1 = 2131099668;
+			// aapt resource value: 0x7f070015
+			public const int scrollView1 = 2131165205;
 			
-			// aapt resource value: 0x7f060009
-			public const int swiShowTestButtons = 2131099657;
+			// aapt resource value: 0x7f070009
+			public const int swiShowTestButtons = 2131165193;
 			
-			// aapt resource value: 0x7f060016
-			public const int test_buttons = 2131099670;
+			// aapt resource value: 0x7f070017
+			public const int test_buttons = 2131165207;
 			
-			// aapt resource value: 0x7f060006
-			public const int txtPulsePin = 2131099654;
+			// aapt resource value: 0x7f070012
+			public const int toolbar = 2131165202;
 			
-			// aapt resource value: 0x7f060015
-			public const int txtSettingsView = 2131099669;
+			// aapt resource value: 0x7f070006
+			public const int txtPulsePin = 2131165190;
 			
-			// aapt resource value: 0x7f060017
-			public const int view_settings_files = 2131099671;
+			// aapt resource value: 0x7f070016
+			public const int txtSettingsView = 2131165206;
+			
+			// aapt resource value: 0x7f070018
+			public const int view_settings_files = 2131165208;
 			
 			static Id()
 			{
@@ -173,7 +176,10 @@ namespace BackupKodiSettings
 			public const int TestButtons = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ViewSettings = 2130903042;
+			public const int toolbar = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int ViewSettings = 2130903043;
 			
 			static Layout()
 			{
@@ -188,8 +194,8 @@ namespace BackupKodiSettings
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int DebugMenu = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int DebugMenu = 2131099648;
 			
 			static Menu()
 			{
@@ -225,6 +231,22 @@ namespace BackupKodiSettings
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int MyTheme = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

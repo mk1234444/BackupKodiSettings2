@@ -4,4 +4,5 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<application android:label="BackupKodiSettings" android:icon="@drawable/kodi"></application>
+  <application android:label="ToolbarFun" android:theme="@style/MyTheme"></application>
 </manifest>

@@ -14,26 +14,24 @@ namespace BackupKodiSettings
 {
     public class ImageButtonScaled:Button
     {
-        protected ImageButtonScaled(IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer) : base(javaReference, transfer)
-        {
-        }
+        protected ImageButtonScaled(IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer) : base(javaReference, transfer) {}
 
-        public ImageButtonScaled(Context context) : base(context)
-        {
-        }
+        public ImageButtonScaled(Context context) : base(context) { }
 
-        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs) : base(context, attrs)
-        {
-        }
+        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs) : base(context, attrs) { }
 
-        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs, int defStyleAttr) : base(context, attrs, defStyleAttr)
-        {
-        }
+        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs, int defStyleAttr) : base(context, attrs, defStyleAttr) { }
 
-        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs, int defStyleAttr, int defStyleRes) : base(context, attrs, defStyleAttr, defStyleRes)
-        {
-        }
+        public ImageButtonScaled(Context context, Android.Util.IAttributeSet attrs, int defStyleAttr, int defStyleRes) : base(context, attrs, defStyleAttr, defStyleRes) { }
 
+
+        /// <summary>
+        /// Scales the image that is at the right or left of the control
+        /// </summary>
+        /// <param name="left"></param>
+        /// <param name="top"></param>
+        /// <param name="right"></param>
+        /// <param name="bottom"></param>
         public override void SetCompoundDrawables(Drawable left, Drawable top, Drawable right, Drawable bottom)
         {
             if (right != null)
@@ -47,7 +45,6 @@ namespace BackupKodiSettings
                 var bounds = left.Bounds;
                 left.SetBounds(bounds.Left, bounds.Top, bounds.Right-30, bounds.Bottom - 30);
             }
-
             base.SetCompoundDrawables(left, top, right, bottom);
         }
     }
@@ -88,6 +85,7 @@ namespace BackupKodiSettings
             txtPulsePin = FindViewById<TextView>(Resource.Id.txtPulsePin);
             pbarPulsePin = FindViewById<ProgressBar>(Resource.Id.pbarPulsePin);
 
+            // Subscribe to Events
             btnBackup.Click += btnBackup_Click;
             btnRestore.Click += btnRestore_Click;
             btnLaunchKodi.Click += btnLaunchKodi_Click;
@@ -95,7 +93,7 @@ namespace BackupKodiSettings
             btnRestoreSD.Click += btnRestoreSD_Click;
             btnGetPulsePin.Click += btnGetPulsePin_Click;
 
-            System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+           // System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
         }
 
         private async void btnGetPulsePin_Click(object sender, EventArgs e)

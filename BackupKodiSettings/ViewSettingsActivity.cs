@@ -87,7 +87,7 @@ namespace BackupKodiSettings
         #region Button Events
         private void btnViewXonfSettings_Click(object sender, EventArgs e)
         {
-            txtViewSettings.Text = Helpers.ReadXonfSettings(xOnfluencePath);
+            txtViewSettings.Text = Helpers.ReadXonfSettings(xOnfluencePath) ?? "No skin settings have been saved yet";
             ourState = State.DisplayingSettings;
         }
 
